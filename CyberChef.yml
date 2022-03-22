@@ -1,0 +1,10 @@
+version: "2.1" 
+
+services:
+  cyberchef:
+    image: mpepping/cyberchef
+    volumes:
+      - /PATH/TO/YOUR/STORAGE/cyberchef:/config
+    ports:
+      - 85:8000
+    restart: unless-stopped

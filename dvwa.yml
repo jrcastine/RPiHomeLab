@@ -1,0 +1,11 @@
+version: "2.1"
+
+services:
+  dvwa:
+    image: cambarts/arm-dvwa
+    volumes:
+      - /PATH/TO/YOUR/STORAGE/dvwa:/config
+    ports:
+      - 4000:80
+    restart: unless-stopped
+

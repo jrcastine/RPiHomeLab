@@ -1,0 +1,15 @@
+---
+version: "2.1"
+services:
+  juiceshop:
+    image: bkimminich/juice-shop:snapshot-arm
+    container_name: OWASP_Juice_Shop
+    environment:
+      - PUID=100
+      - PGID=100
+      - TZ=America/New_York
+    volumes:
+      - /PATH/TO/YOUR/STORAGE/juiceshop:/config
+    ports:
+      - 3000:3000
+    restart: unless-stopped
