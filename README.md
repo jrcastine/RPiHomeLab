@@ -1,5 +1,7 @@
 Files relating to my Raspberry Pi "Home Lab".
 
+For reference, this is a Raspberry Pi 4B 4 GB model, running Raspberry Pi OS 64 bit lite version and OpenMediaVault 6.  There is a 500 GB external NVMe drive connected and shared for NAS storage.
+
 These are the .yml files that I am using in my instance of Portainer. Some items to note prior to use.
 
 * These .yml files are for use in creating an application stack in Portainer.
