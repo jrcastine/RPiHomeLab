@@ -1,0 +1,14 @@
+version: "2.1"
+services:
+  podgrab:
+    image: akhilrex/podgrab
+    container_name: podgrab
+    environment:
+      - CHECK_FREQUENCY=240
+     # - PASSWORD=password     ## Uncomment to enable basic authentication, username = podgrab
+    volumes:
+      - /PATH/TO/YOUR/STORAGE/podgrab/config:/config
+      - /PATH/TO/YOUR/STORAGE//podgrab/assets:/assets
+    ports:
+      - 8282:8080
+    restart: unless-stopped
