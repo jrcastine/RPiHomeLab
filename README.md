@@ -14,4 +14,4 @@ Each container is accessible as shown below.  You can of course edit the .yml fi
 * FreshRSS will be accessible at http://YOUR_IP_ADDRESS:8181
 * OWASP Juice Shop will be accessible at http://YOUR_IP_ADDRESS:3000
 * DVWA will be accessible at http://YOUR_IP_ADDERESS:4000
-* podgrab will be accessinle at http://YOU_IR_ADDRESS:8282
+* podgrab will be accessible at http://YOU_IR_ADDRESS:8282
